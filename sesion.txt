@@ -1,0 +1,468 @@
+Script iniciado en 2022-02-05 12:01:20+01:00 [TERM="xterm-256color" TTY="/dev/pts/170" COLUMNS="146" LINES="47"]
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ git clone /srv/git/prpa
+Clonando en 'prpa'...
+hecho.
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ [K]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ [K]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ cd prpa
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ touch datos_28.txt
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ ls -la
+total 256
+drwxrwxr-x 12 ibeltra ibeltra   4096 feb  5 12:02 [0m[01;34m.[0m
+drwxr-xr-x 13 ibeltra ibeltra   4096 feb  5 12:01 [01;34m..[0m
+drwxrwxr-x  2 ibeltra ibeltra   4096 feb  5 12:01 [01;34mauto[0m
+-rw-rw-r--  1 ibeltra ibeltra      0 feb  5 12:01 datos_03.txt
+-rw-rw-r--  1 ibeltra ibeltra     29 feb  5 12:01 datos_05.txt
+-rw-rw-r--  1 ibeltra ibeltra      8 feb  5 12:01 datos_07.txt
+-rw-rw-r--  1 ibeltra ibeltra      0 feb  5 12:01 datos_14.txt
+-rw-rw-r--  1 ibeltra ibeltra      0 feb  5 12:02 datos_28.txt
+drwxrwxr-x  4 ibeltra ibeltra   4096 feb  5 12:01 [01;34mejemplos[0m
+drwxrwxr-x  2 ibeltra ibeltra   4096 feb  5 12:01 [01;34mejercicios[0m
+-rw-rw-r--  1 ibeltra ibeltra  64390 feb  5 12:01 [01;35mescudo.png[0m
+drwxrwxr-x  2 ibeltra ibeltra   4096 feb  5 12:01 [01;34mestilo[0m
+drwxrwxr-x  4 ibeltra ibeltra   4096 feb  5 12:01 [01;34mexamenes[0m
+drwxrwxr-x  8 ibeltra ibeltra   4096 feb  5 12:01 [01;34m.git[0m
+drwxrwxr-x  3 ibeltra ibeltra   4096 feb  5 12:01 [01;34mipython[0m
+-rw-rw-r--  1 ibeltra ibeltra    248 feb  5 12:01 just_ene.aux
+-rw-rw-r--  1 ibeltra ibeltra   9261 feb  5 12:01 just_ene.log
+-rw-rw-r--  1 ibeltra ibeltra 112327 feb  5 12:01 just_ene.pdf
+-rw-rw-r--  1 ibeltra ibeltra   2790 feb  5 12:01 [01;31mjust_ene.synctex.gz[0m
+-rw-rw-r--  1 ibeltra ibeltra   2287 feb  5 12:01 just_ene.tex
+drwxrwxr-x  4 ibeltra ibeltra   4096 feb  5 12:01 [01;34mnotebook[0m
+drwxrwxr-x  5 ibeltra ibeltra   4096 feb  5 12:01 [01;34mpracticas[0m
+drwxrwxr-x  2 ibeltra ibeltra   4096 feb  5 12:01 [01;34mproblemas[0m
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ ls -la examenes
+total 16
+drwxrwxr-x  4 ibeltra ibeltra 4096 feb  5 12:01 [0m[01;34m.[0m
+drwxrwxr-x 12 ibeltra ibeltra 4096 feb  5 12:02 [01;34m..[0m
+drwxrwxr-x  2 ibeltra ibeltra 4096 feb  5 12:01 [01;34menero_2018[0m
+drwxrwxr-x  3 ibeltra ibeltra 4096 feb  5 12:01 [01;34mfeb[0m
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ rm -r just*
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ cp ejemplos ejemplos_new
+cp: -r not specified; omitting directory 'ejemplos'
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ cp r [K[K-r ejeml[Kplos ejemplos_new
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ cd ejemplos_new
+]0;ibeltra@simba: ~/prpa/ejemplos_new[01;32mibeltra@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cp ~/prpa/escudo.png /[K~/prpa/ejemplos/ec[Kscudo.png
+]0;ibeltra@simba: ~/prpa/ejemplos_new[01;32mibeltra@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cp ~/prpa/escudo.png ~/prpa/ejemplos/escudo.png[1P/escudo.png[1P/escudo.png[1P/escudo.pngl/escudo.pngo/escudo.pngs/escudo.png_/escudo.pngn/escudo.pnge/escudo.pngw/escudo.png[C[C[C[C[C[C[C[C[C[C[C
+]0;ibeltra@simba: ~/prpa/ejemplos_new[01;32mibeltra@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ ls
+chess_pieces.py  circle.py  [0m[01;35mescudo.png[0m  [01;34mprimos[0m  [01;34mreferencias[0m  [01;31mreferencias.tgz[0m  who_am_i.py
+]0;ibeltra@simba: ~/prpa/ejemplos_new[01;32mibeltra@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ ls ~/prpa/ejempls[Kos
+chess_pieces.py  circle.py  [0m[01;35mescudo.png[0m  [01;34mprimos[0m  [01;34mreferencias[0m  [01;31mreferencias.tgz[0m  who_am_i.py
+]0;ibeltra@simba: ~/prpa/ejemplos_new[01;32mibeltra@simba[00m:[01;34m~/prpa/ejemplos_new[00m$ cd ..
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ rm -r ejemplos_new
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ [K]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ [K]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ find . -ma[K[Kname "*py"
+./ejemplos/chess_pieces.py
+./ejemplos/referencias/ref1.py
+./ejemplos/referencias/ref2.py
+./ejemplos/referencias/ref8.py
+./ejemplos/referencias/matrices/mat1.py
+./ejemplos/referencias/matrices/mat3.py
+./ejemplos/referencias/matrices/skel_matrix.py
+./ejemplos/referencias/matrices/for.py
+./ejemplos/referencias/matrices/mat2.py
+./ejemplos/referencias/matrices/copy.py
+./ejemplos/referencias/ref7.py
+./ejemplos/referencias/ref4.py
+./ejemplos/referencias/ref6.py
+./ejemplos/referencias/ref5.py
+./ejemplos/referencias/ref9.py
+./ejemplos/referencias/ref3.py
+./ejemplos/circle.py
+./ejemplos/who_am_i.py
+./ejemplos/primos/gen_primes.py
+./ejemplos/primos/primes.py
+./practicas/p2/solution.py
+./examenes/feb/curso2016/examenFeb1617.py
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ find . -name "*py"| xargs -I g[K{} grep "radius" {}
+def circle(radius):
+    Function that computes the surface of a circle given its radius.
+    radius: float
+      The radius of the circle
+    return math.pi * radius**2
+]0;ibeltra@simba: ~/prpa[01;32mibeltra@simba[00m:[01;34m~/prpa[00m$ cd
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ cdfind . -name "*py"| xargs -I {} grep "radius" {}[K[1P"[1P"t"e"x"[C
+./prpa/estilo/estilo.tex
+./prpa/ejercicios/hoja3.tex
+./prpa/ejercicios/hoja4.tex
+./prpa/practicas/p2/Informatica2017-2018_Practica2.tex
+./prpa/practicas/p0/datosAsignatura.tex
+./prpa/practicas/p0/practica_0_domino.tex
+./prpa/practicas/p1/datosAsignatura.tex
+./prpa/practicas/p1/practica_1_ajedrez.tex
+./prpa/problemas/datosAsignatura.tex
+./prpa/problemas/hoja1.tex
+./prpa/problemas/hoja3.tex
+./prpa/problemas/hoja2.tex
+./prpa/examenes/feb/curso2016/feb2016.tex
+./prpa/examenes/feb/codigos_simon.tex
+./prpa/examenes/feb/ene2018.tex
+./prpa/examenes/feb/ene2017_simon.tex
+./prpa/examenes/feb/codigos_2018.tex
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ du -sh
+30M	.
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ du -sh[1Ph[C
+12K	./i.beltra1/.git/refs/remotes/origin
+16K	./i.beltra1/.git/refs/remotes
+4,0K	./i.beltra1/.git/refs/tags
+8,0K	./i.beltra1/.git/refs/heads
+32K	./i.beltra1/.git/refs
+8,0K	./i.beltra1/.git/objects/4a
+8,0K	./i.beltra1/.git/objects/3d
+8,0K	./i.beltra1/.git/objects/54
+8,0K	./i.beltra1/.git/objects/24
+8,0K	./i.beltra1/.git/objects/b1
+8,0K	./i.beltra1/.git/objects/79
+8,0K	./i.beltra1/.git/objects/78
+8,0K	./i.beltra1/.git/objects/6d
+8,0K	./i.beltra1/.git/objects/71
+8,0K	./i.beltra1/.git/objects/90
+12K	./i.beltra1/.git/objects/77
+8,0K	./i.beltra1/.git/objects/85
+8,0K	./i.beltra1/.git/objects/a5
+8,0K	./i.beltra1/.git/objects/e1
+8,0K	./i.beltra1/.git/objects/8c
+8,0K	./i.beltra1/.git/objects/2f
+8,0K	./i.beltra1/.git/objects/9f
+8,0K	./i.beltra1/.git/objects/b9
+8,0K	./i.beltra1/.git/objects/a2
+8,0K	./i.beltra1/.git/objects/22
+12K	./i.beltra1/.git/objects/41
+4,0K	./i.beltra1/.git/objects/info
+24K	./i.beltra1/.git/objects/pack
+208K	./i.beltra1/.git/objects
+52K	./i.beltra1/.git/hooks
+4,0K	./i.beltra1/.git/branches
+12K	./i.beltra1/.git/logs/refs/remotes/origin
+16K	./i.beltra1/.git/logs/refs/remotes
+8,0K	./i.beltra1/.git/logs/refs/heads
+28K	./i.beltra1/.git/logs/refs
+36K	./i.beltra1/.git/logs
+8,0K	./i.beltra1/.git/info
+368K	./i.beltra1/.git
+520K	./i.beltra1
+8,0K	./ibeltra2/.git/objects/ea
+16K	./ibeltra2/.git/objects/d0
+8,0K	./ibeltra2/.git/objects/a7
+8,0K	./ibeltra2/.git/objects/20
+8,0K	./ibeltra2/.git/objects/8f
+8,0K	./ibeltra2/.git/objects/e6
+8,0K	./ibeltra2/.git/objects/30
+8,0K	./ibeltra2/.git/objects/4c
+8,0K	./ibeltra2/.git/objects/0c
+4,0K	./ibeltra2/.git/objects/info
+24K	./ibeltra2/.git/objects/pack
+112K	./ibeltra2/.git/objects
+52K	./ibeltra2/.git/hooks
+4,0K	./ibeltra2/.git/branches
+12K	./ibeltra2/.git/logs/refs/remotes/origin
+16K	./ibeltra2/.git/logs/refs/remotes
+8,0K	./ibeltra2/.git/logs/refs/heads
+28K	./ibeltra2/.git/logs/refs
+36K	./ibeltra2/.git/logs
+8,0K	./ibeltra2/.git/info
+248K	./ibeltra2/.git
+256K	./ibeltra2
+56K	./.ipynb_checkpoints
+4,3M	./prpa/notebook/img
+20K	./prpa/notebook/.ipynb_checkpoints
+7,2M	./prpa/notebook
+12K	./prpa/auto
+104K	./prpa/estilo
+36K	./prpa/ipython/.ipynb_checkpoints
+500K	./prpa/ipython
+12K	./prpa/ejercicios
+8,0K	./prpa/.git/refs/remotes/origin
+12K	./prpa/.git/refs/remotes
+4,0K	./prpa/.git/refs/tags
+8,0K	./prpa/.git/refs/heads
+28K	./prpa/.git/refs
+8,0K	./prpa/.git/objects/6c
+8,0K	./prpa/.git/objects/80
+8,0K	./prpa/.git/objects/4d
+12K	./prpa/.git/objects/e8
+8,0K	./prpa/.git/objects/7b
+8,0K	./prpa/.git/objects/8d
+16K	./prpa/.git/objects/9c
+12K	./prpa/.git/objects/2a
+8,0K	./prpa/.git/objects/19
+12K	./prpa/.git/objects/52
+8,0K	./prpa/.git/objects/b3
+8,0K	./prpa/.git/objects/c8
+24K	./prpa/.git/objects/1a
+8,0K	./prpa/.git/objects/d6
+8,0K	./prpa/.git/objects/9b
+8,0K	./prpa/.git/objects/d0
+8,0K	./prpa/.git/objects/26
+8,0K	./prpa/.git/objects/35
+16K	./prpa/.git/objects/fe
+16K	./prpa/.git/objects/72
+8,0K	./prpa/.git/objects/df
+12K	./prpa/.git/objects/a7
+8,0K	./prpa/.git/objects/d7
+12K	./prpa/.git/objects/11
+12K	./prpa/.git/objects/20
+8,0K	./prpa/.git/objects/16
+8,0K	./prpa/.git/objects/31
+12K	./prpa/.git/objects/c9
+12K	./prpa/.git/objects/3b
+12K	./prpa/.git/objects/84
+20K	./prpa/.git/objects/18
+8,0K	./prpa/.git/objects/f8
+8,0K	./prpa/.git/objects/f6
+16K	./prpa/.git/objects/13
+8,0K	./prpa/.git/objects/c7
+8,0K	./prpa/.git/objects/54
+12K	./prpa/.git/objects/24
+12K	./prpa/.git/objects/8f
+12K	./prpa/.git/objects/3e
+12K	./prpa/.git/objects/c4
+8,0K	./prpa/.git/objects/2c
+8,0K	./prpa/.git/objects/fa
+12K	./prpa/.git/objects/17
+8,0K	./prpa/.git/objects/37
+12K	./prpa/.git/objects/01
+12K	./prpa/.git/objects/b1
+8,0K	./prpa/.git/objects/a8
+8,0K	./prpa/.git/objects/93
+8,0K	./prpa/.git/objects/64
+12K	./prpa/.git/objects/e7
+12K	./prpa/.git/objects/e6
+8,0K	./prpa/.git/objects/98
+8,0K	./prpa/.git/objects/af
+12K	./prpa/.git/objects/30
+8,0K	./prpa/.git/objects/14
+16K	./prpa/.git/objects/c5
+20K	./prpa/.git/objects/58
+8,0K	./prpa/.git/objects/b5
+8,0K	./prpa/.git/objects/73
+12K	./prpa/.git/objects/3f
+12K	./prpa/.git/objects/79
+12K	./prpa/.git/objects/bb
+16K	./prpa/.git/objects/36
+20K	./prpa/.git/objects/38
+12K	./prpa/.git/objects/1c
+12K	./prpa/.git/objects/4c
+8,0K	./prpa/.git/objects/b0
+8,0K	./prpa/.git/objects/e4
+8,0K	./prpa/.git/objects/f9
+8,0K	./prpa/.git/objects/ef
+8,0K	./prpa/.git/objects/e0
+44K	./prpa/.git/objects/e9
+12K	./prpa/.git/objects/6e
+8,0K	./prpa/.git/objects/92
+8,0K	./prpa/.git/objects/eb
+16K	./prpa/.git/objects/86
+8,0K	./prpa/.git/objects/4b
+12K	./prpa/.git/objects/23
+8,0K	./prpa/.git/objects/ce
+8,0K	./prpa/.git/objects/33
+8,0K	./prpa/.git/objects/f0
+8,0K	./prpa/.git/objects/53
+8,0K	./prpa/.git/objects/87
+8,0K	./prpa/.git/objects/02
+12K	./prpa/.git/objects/44
+8,0K	./prpa/.git/objects/96
+12K	./prpa/.git/objects/0b
+8,0K	./prpa/.git/objects/b6
+12K	./prpa/.git/objects/3a
+8,0K	./prpa/.git/objects/0f
+8,0K	./prpa/.git/objects/d3
+8,0K	./prpa/.git/objects/90
+8,0K	./prpa/.git/objects/1b
+8,0K	./prpa/.git/objects/7f
+12K	./prpa/.git/objects/81
+8,0K	./prpa/.git/objects/6b
+12K	./prpa/.git/objects/15
+8,0K	./prpa/.git/objects/f2
+8,0K	./prpa/.git/objects/77
+8,0K	./prpa/.git/objects/ad
+12K	./prpa/.git/objects/cc
+8,0K	./prpa/.git/objects/d8
+8,0K	./prpa/.git/objects/da
+12K	./prpa/.git/objects/76
+8,0K	./prpa/.git/objects/59
+12K	./prpa/.git/objects/f3
+8,0K	./prpa/.git/objects/50
+8,0K	./prpa/.git/objects/7d
+12K	./prpa/.git/objects/ba
+8,0K	./prpa/.git/objects/85
+12K	./prpa/.git/objects/a0
+12K	./prpa/.git/objects/ee
+16K	./prpa/.git/objects/ec
+8,0K	./prpa/.git/objects/e1
+12K	./prpa/.git/objects/8c
+8,0K	./prpa/.git/objects/1e
+12K	./prpa/.git/objects/83
+8,0K	./prpa/.git/objects/04
+12K	./prpa/.git/objects/28
+8,0K	./prpa/.git/objects/7c
+8,0K	./prpa/.git/objects/2e
+8,0K	./prpa/.git/objects/40
+8,0K	./prpa/.git/objects/cb
+12K	./prpa/.git/objects/dd
+8,0K	./prpa/.git/objects/39
+8,0K	./prpa/.git/objects/b4
+12K	./prpa/.git/objects/5f
+8,0K	./prpa/.git/objects/8b
+8,0K	./prpa/.git/objects/dc
+8,0K	./prpa/.git/objects/46
+8,0K	./prpa/.git/objects/4f
+8,0K	./prpa/.git/objects/67
+8,0K	./prpa/.git/objects/be
+8,0K	./prpa/.git/objects/5c
+16K	./prpa/.git/objects/08
+8,0K	./prpa/.git/objects/63
+12K	./prpa/.git/objects/00
+8,0K	./prpa/.git/objects/a2
+8,0K	./prpa/.git/objects/d4
+16K	./prpa/.git/objects/61
+8,0K	./prpa/.git/objects/91
+12K	./prpa/.git/objects/9e
+20K	./prpa/.git/objects/82
+8,0K	./prpa/.git/objects/bd
+12K	./prpa/.git/objects/60
+12K	./prpa/.git/objects/41
+8,0K	./prpa/.git/objects/9d
+8,0K	./prpa/.git/objects/0c
+12K	./prpa/.git/objects/bf
+12K	./prpa/.git/objects/ae
+8,0K	./prpa/.git/objects/e2
+16K	./prpa/.git/objects/ac
+8,0K	./prpa/.git/objects/bc
+8,0K	./prpa/.git/objects/25
+8,0K	./prpa/.git/objects/fd
+12K	./prpa/.git/objects/d2
+12K	./prpa/.git/objects/f4
+4,0K	./prpa/.git/objects/info
+12K	./prpa/.git/objects/47
+16M	./prpa/.git/objects/pack
+12K	./prpa/.git/objects/f1
+8,0K	./prpa/.git/objects/8a
+8,0K	./prpa/.git/objects/65
+12K	./prpa/.git/objects/d9
+18M	./prpa/.git/objects
+52K	./prpa/.git/hooks
+4,0K	./prpa/.git/branches
+8,0K	./prpa/.git/logs/refs/remotes/origin
+12K	./prpa/.git/logs/refs/remotes
+8,0K	./prpa/.git/logs/refs/heads
+24K	./prpa/.git/logs/refs
+32K	./prpa/.git/logs
+8,0K	./prpa/.git/info
+18M	./prpa/.git
+36K	./prpa/ejemplos/referencias/matrices
+76K	./prpa/ejemplos/referencias
+12K	./prpa/ejemplos/primos
+176K	./prpa/ejemplos
+204K	./prpa/practicas/p2
+128K	./prpa/practicas/p0
+148K	./prpa/practicas/p1
+484K	./prpa/practicas
+20K	./prpa/problemas
+212K	./prpa/examenes/feb/curso2016
+276K	./prpa/examenes/feb
+1,6M	./prpa/examenes/enero_2018
+1,9M	./prpa/examenes
+28M	./prpa
+8,0K	./.jupyter/lab/workspaces
+12K	./.jupyter/lab
+20K	./.jupyter
+4,0K	./.ipython/extensions
+4,0K	./.ipython/nbextensions
+4,0K	./.ipython/profile_default/pid
+8,0K	./.ipython/profile_default/startup
+4,0K	./.ipython/profile_default/log
+4,0K	./.ipython/profile_default/db
+4,0K	./.ipython/profile_default/security
+56K	./.ipython/profile_default
+68K	./.ipython
+24K	./i.beltra2/.ipynb_checkpoints
+8,0K	./i.beltra2/.git/refs/remotes/origin
+12K	./i.beltra2/.git/refs/remotes
+4,0K	./i.beltra2/.git/refs/tags
+8,0K	./i.beltra2/.git/refs/heads
+28K	./i.beltra2/.git/refs
+8,0K	./i.beltra2/.git/objects/6c
+8,0K	./i.beltra2/.git/objects/85
+4,0K	./i.beltra2/.git/objects/info
+8,0K	./i.beltra2/.git/objects/47
+24K	./i.beltra2/.git/objects/pack
+56K	./i.beltra2/.git/objects
+52K	./i.beltra2/.git/hooks
+4,0K	./i.beltra2/.git/branches
+8,0K	./i.beltra2/.git/logs/refs/remotes/origin
+12K	./i.beltra2/.git/logs/refs/remotes
+8,0K	./i.beltra2/.git/logs/refs/heads
+24K	./i.beltra2/.git/logs/refs
+32K	./i.beltra2/.git/logs
+8,0K	./i.beltra2/.git/info
+208K	./i.beltra2/.git
+304K	./i.beltra2
+8,0K	./.ssh/pc/p1/.git/objects/b6
+8,0K	./.ssh/pc/p1/.git/objects/b8
+8,0K	./.ssh/pc/p1/.git/objects/f4
+4,0K	./.ssh/pc/p1/.git/objects/info
+4,0K	./.ssh/pc/p1/.git/objects/pack
+36K	./.ssh/pc/p1/.git/objects
+52K	./.ssh/pc/p1/.git/hooks
+4,0K	./.ssh/pc/p1/.git/branches
+8,0K	./.ssh/pc/p1/.git/logs/refs/heads
+12K	./.ssh/pc/p1/.git/logs/refs
+20K	./.ssh/pc/p1/.git/logs
+8,0K	./.ssh/pc/p1/.git/info
+144K	./.ssh/pc/p1/.git
+152K	./.ssh/pc/p1
+156K	./.ssh/pc
+4,0K	./.ssh/.git/refs/tags
+4,0K	./.ssh/.git/refs/heads
+12K	./.ssh/.git/refs
+4,0K	./.ssh/.git/objects/info
+4,0K	./.ssh/.git/objects/pack
+12K	./.ssh/.git/objects
+52K	./.ssh/.git/hooks
+4,0K	./.ssh/.git/branches
+8,0K	./.ssh/.git/info
+104K	./.ssh/.git
+24K	./.ssh/ibeltra1/.git/objects/pack
+28K	./.ssh/ibeltra1/.git/objects
+52K	./.ssh/ibeltra1/.git/hooks
+4,0K	./.ssh/ibeltra1/.git/branches
+8,0K	./.ssh/ibeltra1/.git/logs/refs/remotes/origin
+12K	./.ssh/ibeltra1/.git/logs/refs/remotes
+8,0K	./.ssh/ibeltra1/.git/logs/refs/heads
+24K	./.ssh/ibeltra1/.git/logs/refs
+32K	./.ssh/ibeltra1/.git/logs
+8,0K	./.ssh/ibeltra1/.git/info
+148K	./.ssh/ibeltra1/.git
+156K	./.ssh/ibeltra1
+432K	./.ssh
+4,0K	./.local/share/nano
+12K	./.local/share/jupyter/runtime
+16K	./.local/share/jupyter
+24K	./.local/share
+28K	./.local
+8,0K	./i.beltra3/.git/objects/58
+8,0K	./i.beltra3/.git/objects/1d
+8,0K	./i.beltra3/.git/objects/96
+8,0K	./i.beltra3/.git/objects/b6
+8,0K	./i.beltra3/.git/objects/15
+20K	./i.beltra3/.git/objects/f2
+4,0K	./i.beltra3/.git/objects/info
+4,0K	./i.beltra3/.git/objects/pack
+72K	./i.beltra3/.git/objects
+52K	./i.beltra3/.git/hooks
+4,0K	./i.beltra3/.git/branches
+8,0K	./i.beltra3/.git/logs/refs/remotes/origin
+12K	./i.beltra3/.git/logs/refs/remotes
+8,0K	./i.beltra3/.git/logs/refs/heads
+24K	./i.beltra3/.git/logs/refs
+32K	./i.beltra3/.git/logs
+8,0K	./i.beltra3/.git/info
+204K	./i.beltra3/.git
+212K	./i.beltra3
+4,0K	./.cache/yarn/v6/.tmp
+8,0K	./.cache/yarn/v6
+12K	./.cache/yarn
+16K	./.cache
+30M	.
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ exit
+
+Script terminado en 2022-02-05 12:12:39+01:00 [CÓDIGO_SALIDA_ORDEN="0"]
