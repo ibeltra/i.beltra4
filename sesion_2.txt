@@ -1,0 +1,68 @@
+Script iniciado en 2022-02-05 12:13:18+01:00 [TERM="xterm-256color" TTY="/dev/pts/170" COLUMNS="146" LINES="47"]
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ ls -lSr
+total 232
+-rw-rw-r--  1 ibeltra ibeltra     0 feb  5 12:13 sesion_2.txt
+-rw-r--r--  1 ibeltra ibeltra   390 feb  3 21:13 0_procesos.py
+-rw-r--r--  1 ibeltra ibeltra   452 feb  3 21:14 1_procesos.py
+-rw-r--r--  1 ibeltra ibeltra   565 feb  3 21:16 3_procesos.py
+-rw-r--r--  1 ibeltra ibeltra   589 feb  3 21:15 2_procesos.py
+-rw-r--r--  1 ibeltra ibeltra   706 feb  3 21:17 4_procesos.py
+drwxrwxr-x 12 ibeltra ibeltra  4096 feb  5 12:07 [0m[01;34mprpa[0m
+drwxrwxr-x  3 ibeltra ibeltra  4096 feb  5 11:58 [01;34mi.beltra3[0m
+drwxrwxr-x  3 ibeltra ibeltra  4096 feb  3 22:42 [01;34mibeltra2[0m
+drwxrwxr-x  4 ibeltra ibeltra  4096 feb  3 21:19 [01;34mi.beltra2[0m
+drwxrwxr-x  3 ibeltra ibeltra  4096 feb  3 21:37 [01;34mi.beltra1[0m
+-rw-r--r--  1 ibeltra ibeltra 17641 feb  5 12:12 sesion.txt
+-rw-rw-r--  1 ibeltra ibeltra 33799 feb  3 15:43 sesion3FEB.txt
+-rw-rw-r--  1 ibeltra ibeltra 39559 feb  3 21:38 multiprocessing_1.txt
+-rw-rw-r--  1 ibeltra ibeltra 90112 feb  3 21:38 multiprocessing.txt
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ ls -lSr ~/prpa
+total 108
+-rw-rw-r-- 1 ibeltra ibeltra     0 feb  5 12:02 datos_28.txt
+-rw-rw-r-- 1 ibeltra ibeltra     0 feb  5 12:01 datos_14.txt
+-rw-rw-r-- 1 ibeltra ibeltra     0 feb  5 12:01 datos_03.txt
+-rw-rw-r-- 1 ibeltra ibeltra     8 feb  5 12:01 datos_07.txt
+-rw-rw-r-- 1 ibeltra ibeltra    29 feb  5 12:01 datos_05.txt
+drwxrwxr-x 2 ibeltra ibeltra  4096 feb  5 12:01 [0m[01;34mproblemas[0m
+drwxrwxr-x 5 ibeltra ibeltra  4096 feb  5 12:01 [01;34mpracticas[0m
+drwxrwxr-x 4 ibeltra ibeltra  4096 feb  5 12:01 [01;34mnotebook[0m
+drwxrwxr-x 3 ibeltra ibeltra  4096 feb  5 12:01 [01;34mipython[0m
+drwxrwxr-x 4 ibeltra ibeltra  4096 feb  5 12:01 [01;34mexamenes[0m
+drwxrwxr-x 2 ibeltra ibeltra  4096 feb  5 12:01 [01;34mestilo[0m
+drwxrwxr-x 2 ibeltra ibeltra  4096 feb  5 12:01 [01;34mejercicios[0m
+drwxrwxr-x 4 ibeltra ibeltra  4096 feb  5 12:06 [01;34mejemplos[0m
+drwxrwxr-x 2 ibeltra ibeltra  4096 feb  5 12:01 [01;34mauto[0m
+-rw-rw-r-- 1 ibeltra ibeltra 64390 feb  5 12:01 [01;35mescudo.png[0m
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ rm -r auto
+rm: no se puede borrar 'auto': No existe el fichero o el directorio
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ [K]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ [K]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ rm -r auto~auto/autopautorautopauto[Cauto[C[1Puto/utoauto[C[C[C
+]0;ibeltra@simba: ~[01;32mibeltra@simba[00m:[01;34m~[00m$ cd ~/prpa/examenes/feb
+]0;ibeltra@simba: ~/prpa/examenes/feb[01;32mibeltra@simba[00m:[01;34m~/prpa/examenes/feb[00m$ head -20 ene2018.tex
+\documentclass[10pt]{examdesign}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage{listings}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumerate}
+
+\lstset{
+  language=Python,
+  frame=single,
+  basicstyle=\sffamily,
+  showstringspaces=false
+  %basicstyle=\ttfamily,
+}
+
+\NumberOfVersions{4} %Poner a 2 en la versión final
+\NoRearrange % Eliminar para generar el examen definitivo
+\ContinuousNumbering
+\IncludeFromFile{codigos_2018.tex}
+]0;ibeltra@simba: ~/prpa/examenes/feb[01;32mibeltra@simba[00m:[01;34m~/prpa/examenes/feb[00m$ head -20 ene2018.tex[1P[1P[1P[1P[1@t[1@a[1@i[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+\lstinline{\"la\"}, \lstinline{\"mancha\"}, \lstinline{\"de\"}, \lstinline{\"cuyo\"} y \lstinline{\"nombre\"}.
+Para distinguir si un carácter es una letra o un signo de puntuación o separador puedes suponer definida la siguiente función:
+  \InsertChunk{def_is_letter}
+
+Escribe una función en Python que dada una cadena de caracteres devuelva la lista de las palabras que contiene.
+
+
